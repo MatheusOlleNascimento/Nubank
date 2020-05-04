@@ -14,6 +14,11 @@ export default function Tabs() {
                 </TabItem>
 
                 <TabItem>
+                    <Icon name="stay-current-portrait" size={24} color="#FFF" />
+                    <TabText>Recarga de celular</TabText>
+                </TabItem>
+                
+                <TabItem>
                     <Icon name="chat-bubble-outline" size={24} color="#FFF" />
                     <TabText>Cobrar</TabText>
                 </TabItem>
@@ -29,8 +34,23 @@ export default function Tabs() {
                 </TabItem>
 
                 <TabItem>
-                    <Icon name="lock" size={24} color="#FFF" />
-                    <TabText>Bloquear Cartão</TabText>
+                    <Icon name="help-outline" size={24} color="#FFF" />
+                    <TabText>Me Ajuda</TabText>
+                </TabItem>
+
+                <TabItem>
+                    <Icon name="payment" size={24} color="#FFF" />
+                    <TabText>Pagar</TabText>
+                </TabItem>
+
+                <TabItem>
+                    <Icon name="lock-open" size={24} color="#FFF" />
+                    <TabText>Bloquear cartão</TabText>
+                </TabItem>
+
+                <TabItem>
+                    <Icon name="format-line-spacing" size={24} color="#FFF" />
+                    <TabText>Organizar atalhos</TabText>
                 </TabItem>
 
             </TabsContainer>
